@@ -1,0 +1,136 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        position: relative;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    button {
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    #my_photos {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/4.jpg);
+        background-position: center;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #img_gallery .imgbut {
+        position: relative;
+    }
+    
+    .img_but .gall {
+        position: absolute;
+        top: 20px;
+        left: 50px;
+        color: white;
+    }
+    
+    .img_but .down {
+        position: absolute;
+        top: 20px;
+        right: 50px;
+        padding: 5px 15px;
+        color: white;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        background: #bb3a76;
+        border: none;
+    }
+    
+    .word {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 180px;
+        align-content: center;
+        padding: 80px 400px;
+        color: white;
+    }
+    
+    .word h2 {
+        font-size: 2em;
+        padding-bottom: 15px;
+    }
+    
+    .word p {
+        padding-bottom: 15px;
+    }
+    
+    .word button {
+        padding: 5px 15px;
+        border: 1px solid rgb(8, 101, 223);
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        color: white;
+        background: rgb(8, 101, 223);
+    }
+    
+    .word button:hover {
+        background-color: white;
+        color: rgb(8, 101, 223);
+        cursor: pointer;
+    }
+    
+    #dis_gal {
+        position: absolute;
+        left: 25%;
+        right: 25%;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    #dis_gal h1 {
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    #dis_gal .but {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 25px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 10px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    #dis_gal .but button {
+        padding: 5px 5px;
+        border: 1px solid rgb(8, 101, 223);
+        color: rgb(8, 101, 223);
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+  
+    #dis_gal .but button:hover {
+        background-color: rgb(8, 101, 223);
+        color: white;
+        cursor: pointer;
+    }
+
+    #dis_gal .photos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 15px;
+    }
+    
+    #dis_gal .photos img {
+        width: 150px;
+        height: 100px;
+    }
